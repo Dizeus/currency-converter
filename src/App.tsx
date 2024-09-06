@@ -17,7 +17,7 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <div className="app">
-        <Typography variant="h1" gutterBottom className="title">
+        <Typography variant="h2" gutterBottom className="title">
           Crypto Currency Exchanger
         </Typography>
         <Converter />

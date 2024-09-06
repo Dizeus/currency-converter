@@ -1,7 +1,10 @@
-.app{
+.app {
   padding: 40px;
 }
 
-.title{
+.title {
   color: #90caf9;
+  @media (max-width: 600.98px) {
+    font-size: 10px;
+  }
 }
